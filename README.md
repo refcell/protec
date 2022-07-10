@@ -1,4 +1,4 @@
-<img align="right" width="150" height="150" top="100" src="./assets/protec.png">
+<img align="right" width="150" height="150" top="100" src="./assets/protected.png">
 
 # protec • [![ci](https://github.com/abigger87/protec/actions/workflows/ci.yaml/badge.svg?label=ci)](https://github.com/abigger87/protec/actions/workflows/ci.yaml) [![license](https://img.shields.io/badge/License-Apache_2.0-blue.svg?label=license)](https://opensource.org/licenses/Apache-2.0) [![size](https://img.shields.io/github/languages/code-size/abigger87/protec.svg?color=orange&label=size)](https://img.shields.io/github/languages/code-size/abigger87/protec?label=size)
 
