@@ -258,9 +258,47 @@
         }
       }
     },
+    "lib/solidity-stringutils/src/strings.sol": {
+      "lastModificationDate": 1657397066432,
+      "contentHash": "a35219f3ed241165477dabdfe496165a",
+      "sourceName": "lib/solidity-stringutils/src/strings.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "strings": {
+          "0.8.15+commit.e14f2714.Darwin.appleclang": "strings.sol/strings.json"
+        }
+      }
+    },
     "lib/surl/src/Surl.sol": {
-      "lastModificationDate": 1657394084398,
-      "contentHash": "daf0dd815dee58cac8aba0ac7fbabb47",
+      "lastModificationDate": 1657394784752,
+      "contentHash": "744d9919c40ea980a848225bde4dcc9d",
       "sourceName": "lib/surl/src/Surl.sol",
       "solcConfig": {
         "settings": {
@@ -299,8 +337,8 @@
       }
     },
     "script/Protected.s.sol": {
-      "lastModificationDate": 1657394711042,
-      "contentHash": "9a3e909424b482f580c8556f3cb34cc4",
+      "lastModificationDate": 1657396535034,
+      "contentHash": "9bbcae30f2f6d30637a7d7f2ebdb4c16",
       "sourceName": "script/Protected.s.sol",
       "solcConfig": {
         "settings": {
@@ -333,6 +371,7 @@
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
+        "lib/solidity-stringutils/src/strings.sol",
         "lib/surl/src/Surl.sol",
         "src/Protec.sol"
       ],
@@ -344,8 +383,8 @@
       }
     },
     "src/Protec.sol": {
-      "lastModificationDate": 1657394682549,
-      "contentHash": "5403ab97ce2afb3213bd8cd5a69eb624",
+      "lastModificationDate": 1657397359467,
+      "contentHash": "487e0545e57e895f3af9142a0f286211",
       "sourceName": "src/Protec.sol",
       "solcConfig": {
         "settings": {
@@ -374,7 +413,9 @@
         }
       },
       "imports": [
-        "lib/forge-std/src/console2.sol"
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/solidity-stringutils/src/strings.sol"
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {
