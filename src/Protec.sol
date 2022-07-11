@@ -13,7 +13,7 @@ contract Protec {
 
     bool init_ffi = false;
     try tvm.envBool("FOUNDRY_FFI") returns (bool ffi) {
-      ffi = init_ffi;
+      init_ffi = ffi;
     } catch (bytes memory reason) {
       // Try to read "ffi" from the foundry toml
       string memory toml = tvm.readFile("foundry.toml");
