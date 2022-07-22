@@ -14,7 +14,7 @@ Safely Execute Foreign Function Interface Commands.
 
 ## What?
 
-**protec** is a wrapper to prevent library abuse of the [foundry](https://github.com/foundry-rs/foundry)'s [fii](https://book.getfoundry.sh/cheatcodes/ffi.html) command. It attempts to completely block any call by setting the `FOUNDRY_FFI` environment variable to `false`.
+**protec** is a wrapper to prevent library abuse of the [foundry](https://github.com/foundry-rs/foundry)'s [ffi](https://book.getfoundry.sh/cheatcodes/ffi.html) command. It attempts to completely block any call by setting the `FOUNDRY_FFI` environment variable to `false`.
 
 
 ## Installation
